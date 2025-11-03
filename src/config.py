@@ -8,7 +8,7 @@ DATA_PARENT_DIR = PROJECT_ROOT.parent / "Sentiment_Analysis_Data"
 RAW_DATA_DIR = DATA_PARENT_DIR / "raw"
 CLEAN_DATA_DIR = DATA_PARENT_DIR / "clean"
 
-MODELS_DIR = PROJECT_ROOT / "models"
+MODELS_DIR = DATA_PARENT_DIR / "models"
 
 
 RAW_IMDB_TRAIN_PATH = RAW_DATA_DIR / "raw_imdb_train.csv"
