@@ -19,7 +19,9 @@ All models were tested on both long-form **IMDB** reviews and short **Rotten Tom
 
 ##  Results Summary
 
-The following tables provide a detailed breakdown of the model performance on each dataset.
+The following tables provide a detailed breakdown of the model performance on each dataset. 
+
+**To ensure a fair and reproducible comparison, all models were trained and evaluated on the exact same data splits. All random processes (e.g., data splitting, model initializations) were controlled by a fixed random seed, which is defined globally in the `src/config.py` file.**
 
 ---
 
