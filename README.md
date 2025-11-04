@@ -17,11 +17,13 @@ All models were tested on both long-form **IMDB** reviews and short **Rotten Tom
 *   **Tools:** Jupyter Notebook, Git, GitHub
 
 
-##  Results Summary
+The following tables provide a detailed breakdown of the model performance on each dataset.
 
-The following tables provide a detailed breakdown of the model performance on each dataset. 
+**Reproducibility & Experimental Setup:**
+- All models were trained and evaluated on identical data splits
+- All random processes (splitting, initialization, etc.) use a fixed seed defined in `src/config.py`
+- Hyperparameters were selected through iterative experimentation rather than exhaustive grid search. The goal was to demonstrate the relative strengths of different approaches (classical vs. deep learning, different embedding strategies) rather than squeeze out maximum performance from each model.
 
-**To ensure a fair and reproducible comparison, all models were trained and evaluated on the exact same data splits. All random processes (e.g., data splitting, model initializations) were controlled by a fixed random seed, which is defined globally in the `src/config.py` file.**
 
 ---
 
