@@ -155,3 +155,10 @@ The notebooks are designed to be run in numerical order:
 1. **(Optional)** Run `notebooks/02_Train_Word2Vec_Embeddings.ipynb` to generate the custom Word2Vec embeddings.
 2. **(Required)** Run `notebooks/00_Data_Preprocessing.ipynb` to clean the raw data and create the necessary train/validation splits.
 3. **(Experiments)** Once the clean data is generated, you can run the experiment notebooks (01, 03, 04) to reproduce the results.
+---
+
+## Acknowledgments
+
+This project was conducted as part of a summer internship at the **DEEProsody Lab** at the **Weizmann Institute of Science**, headed by **Prof. David Harel** and led by **Dr. Tirza Biron**.
+
+Special thanks to **Yaron Winter** for his guidance and helpful feedback throughout the project, and to the **Weizmann Institute** for providing access to its computational resources, which greatly supported the experiments.
